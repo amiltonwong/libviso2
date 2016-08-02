@@ -149,7 +149,7 @@ void mexFunction (int nlhs,mxArray *plhs[],int nrhs,const mxArray *prhs[]) {
     const int dims[] = {1,1};
     plhs[0] = mxCreateNumericArray(2,dims,mxDOUBLE_CLASS,mxREAL);
     *((double*)mxGetPr(plhs[0])) = (double)viso->getNumberOfMatches();
-    
+    /data/karlsruhe_sequences/2010_03_09_drive_0019/insdata.txt
   // query number of inliers
   } else if (!strcmp(command,"num_inliers")) {
     const int dims[] = {1,1};
