@@ -1,0 +1,1234 @@
+g++ -c -pipe -O3 -pipe -fomit-frame-pointer -msse3 -O2 -Wall -W -D_REENTRANT -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt4/mkspecs/linux-g++ -I. -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4 -I/root/cvmlib_test/cvmlib/cvm/src -I/usr/X11R6/include -I. -I. -o main.o main.cpp
+In file included from /usr/include/c++/4.8/array:35:0,
+                 from /root/cvmlib_test/cvmlib/cvm/src/cvm.h:67,
+                 from ../libviso2/src/visualodometry.h:25,
+                 from visualodometrythread.h:9,
+                 from maindialog.h:11,
+                 from main.cpp:2:
+/usr/include/c++/4.8/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support is currently experimental, and must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support for the \
+  ^
+In file included from ../libviso2/src/visualodometry.h:25:0,
+                 from visualodometrythread.h:9,
+                 from maindialog.h:11,
+                 from main.cpp:2:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:322:9: warning: identifier ‘nullptr’ is a keyword in C++11 [-Wc++0x-compat]
+         if (p != nullptr) {
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1754:5: warning: identifier ‘noexcept’ is a keyword in C++11 [-Wc++0x-compat]
+     Randomizer() noexcept
+     ^
+In file included from ../libviso2/src/visualodometry.h:25:0,
+                 from visualodometrythread.h:9,
+                 from maindialog.h:11,
+                 from main.cpp:2:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:36567:1: warning: identifier ‘constexpr’ is a keyword in C++11 [-Wc++0x-compat]
+ constexpr inline std::complex<double> operator "" _i(long double im)           
+ ^
+In file included from ../libviso2/src/visualodometry.h:25:0,
+                 from visualodometrythread.h:9,
+                 from maindialog.h:11,
+                 from main.cpp:2:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:42:11: error: expected nested-name-specifier before ‘tint’
+     using tint = int;  //!< Either 32 of 64 bit (when \c CVM_ILP64 is defined) signed integer
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:42:11: error: ‘tint’ has not been declared
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:42:16: error: expected ‘;’ before ‘=’ token
+     using tint = int;  //!< Either 32 of 64 bit (when \c CVM_ILP64 is defined) signed integer
+                ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:42:16: error: expected unqualified-id before ‘=’ token
+In file included from ../libviso2/src/visualodometry.h:25:0,
+                 from visualodometrythread.h:9,
+                 from maindialog.h:11,
+                 from main.cpp:2:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:196:7: error: expected nested-name-specifier before ‘CVM_LONGEST_INT’
+ using CVM_LONGEST_INT = long long;
+       ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:196:7: error: ‘CVM_LONGEST_INT’ has not been declared
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:196:23: error: expected ‘;’ before ‘=’ token
+ using CVM_LONGEST_INT = long long;
+                       ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:196:23: error: expected unqualified-id before ‘=’ token
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:199:7: error: expected nested-name-specifier before ‘CVM_PTR_WRAPPER’
+ using CVM_PTR_WRAPPER = unsigned long long;
+       ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:199:7: error: ‘CVM_PTR_WRAPPER’ has not been declared
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:199:23: error: expected ‘;’ before ‘=’ token
+ using CVM_PTR_WRAPPER = unsigned long long;
+                       ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:199:23: error: expected unqualified-id before ‘=’ token
+In file included from ../libviso2/src/visualodometry.h:25:0,
+                 from visualodometrythread.h:9,
+                 from maindialog.h:11,
+                 from main.cpp:2:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:302:7: error: expected nested-name-specifier before ‘tbyte’
+ using tbyte = unsigned char;  //!< memory allocation quantum
+       ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:302:7: error: ‘tbyte’ has not been declared
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:302:13: error: expected ‘;’ before ‘=’ token
+ using tbyte = unsigned char;  //!< memory allocation quantum
+             ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:302:13: error: expected unqualified-id before ‘=’ token
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In member function ‘void cvm::ArrayDeleter<T>::operator()(T*) const’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:322:18: error: ‘nullptr’ was not declared in this scope
+         if (p != nullptr) {
+                  ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: At global scope:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:352:11: error: expected nested-name-specifier before ‘map_Msg’
+     using map_Msg = std::map<int,std::string,std::less<int>>;
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:352:11: error: using-declaration for non-member at class scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:352:19: error: expected ‘;’ before ‘=’ token
+     using map_Msg = std::map<int,std::string,std::less<int>>;
+                   ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:352:19: error: expected unqualified-id before ‘=’ token
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:353:11: error: expected nested-name-specifier before ‘itr_Msg’
+     using itr_Msg = map_Msg::iterator;
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:353:11: error: using-declaration for non-member at class scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:353:19: error: expected ‘;’ before ‘=’ token
+     using itr_Msg = map_Msg::iterator;
+                   ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:353:19: error: expected unqualified-id before ‘=’ token
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:354:11: error: expected nested-name-specifier before ‘citr_Msg’
+     using citr_Msg = map_Msg::const_iterator;
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:354:11: error: using-declaration for non-member at class scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:354:20: error: expected ‘;’ before ‘=’ token
+     using citr_Msg = map_Msg::const_iterator;
+                    ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:354:20: error: expected unqualified-id before ‘=’ token
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:355:11: error: expected nested-name-specifier before ‘pair_Msg’
+     using pair_Msg = std::pair<int,std::string>;
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:355:11: error: using-declaration for non-member at class scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:355:20: error: expected ‘;’ before ‘=’ token
+     using pair_Msg = std::pair<int,std::string>;
+                    ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:355:20: error: expected unqualified-id before ‘=’ token
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:359:5: error: ‘map_Msg’ does not name a type
+     map_Msg mmMsg;
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In member function ‘const string& cvm::ErrMessages::_get(int)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:364:9: error: ‘citr_Msg’ was not declared in this scope
+         citr_Msg i = mmMsg.find(nException);
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:364:18: error: expected ‘;’ before ‘i’
+         citr_Msg i = mmMsg.find(nException);
+                  ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:365:16: error: ‘i’ was not declared in this scope
+         return i == mmMsg.end() ? msUnknown : i->second;
+                ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:365:21: error: ‘mmMsg’ was not declared in this scope
+         return i == mmMsg.end() ? msUnknown : i->second;
+                     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: At global scope:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:363:24: warning: unused parameter ‘nException’ [-Wunused-parameter]
+     const std::string& _get(int nException) {
+                        ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:430:23: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+     const int cause() const {
+                       ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:441:36: warning: override controls (override/final) only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     const char* what() const throw() override {
+                                    ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:472:21: error: variable or field ‘__copy’ declared void
+ CVM_API void __copy(tint nSize, const T* pFrom, tint nFromIncr, T* pTo, tint nToIncr);
+                     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:472:21: error: ‘tint’ was not declared in this scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:472:33: error: expected primary-expression before ‘const’
+ CVM_API void __copy(tint nSize, const T* pFrom, tint nFromIncr, T* pTo, tint nToIncr);
+                                 ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:472:49: error: ‘tint’ was not declared in this scope
+ CVM_API void __copy(tint nSize, const T* pFrom, tint nFromIncr, T* pTo, tint nToIncr);
+                                                 ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:472:66: error: expected primary-expression before ‘*’ token
+ CVM_API void __copy(tint nSize, const T* pFrom, tint nFromIncr, T* pTo, tint nToIncr);
+                                                                  ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:472:68: error: ‘pTo’ was not declared in this scope
+ CVM_API void __copy(tint nSize, const T* pFrom, tint nFromIncr, T* pTo, tint nToIncr);
+                                                                    ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:472:73: error: ‘tint’ was not declared in this scope
+ CVM_API void __copy(tint nSize, const T* pFrom, tint nFromIncr, T* pTo, tint nToIncr);
+                                                                         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:474:21: error: variable or field ‘__swap’ declared void
+ CVM_API void __swap(tint nSize, T* p1, tint n1Incr, T* p2, tint n2Incr);
+                     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:474:21: error: ‘tint’ was not declared in this scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:474:34: error: expected primary-expression before ‘*’ token
+ CVM_API void __swap(tint nSize, T* p1, tint n1Incr, T* p2, tint n2Incr);
+                                  ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:474:36: error: ‘p1’ was not declared in this scope
+ CVM_API void __swap(tint nSize, T* p1, tint n1Incr, T* p2, tint n2Incr);
+                                    ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:474:40: error: ‘tint’ was not declared in this scope
+ CVM_API void __swap(tint nSize, T* p1, tint n1Incr, T* p2, tint n2Incr);
+                                        ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:474:54: error: expected primary-expression before ‘*’ token
+ CVM_API void __swap(tint nSize, T* p1, tint n1Incr, T* p2, tint n2Incr);
+                                                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:474:56: error: ‘p2’ was not declared in this scope
+ CVM_API void __swap(tint nSize, T* p1, tint n1Incr, T* p2, tint n2Incr);
+                                                        ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:474:60: error: ‘tint’ was not declared in this scope
+ CVM_API void __swap(tint nSize, T* p1, tint n1Incr, T* p2, tint n2Incr);
+                                                            ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:482:33: error: ‘tint’ has not been declared
+ CVM_API TR __dot(const TR* pDm, tint mnSize, tint mnIncr, const TR* pd, tint nIncr);
+                                 ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:482:46: error: ‘tint’ has not been declared
+ CVM_API TR __dot(const TR* pDm, tint mnSize, tint mnIncr, const TR* pd, tint nIncr);
+                                              ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:482:73: error: ‘tint’ has not been declared
+ CVM_API TR __dot(const TR* pDm, tint mnSize, tint mnIncr, const TR* pd, tint nIncr);
+                                                                         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:484:34: error: ‘tint’ has not been declared
+ CVM_API TC __dotu(const TC* pDm, tint mnSize, tint mnIncr, const TC* pd, tint nIncr);
+                                  ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:484:47: error: ‘tint’ has not been declared
+ CVM_API TC __dotu(const TC* pDm, tint mnSize, tint mnIncr, const TC* pd, tint nIncr);
+                                               ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:484:74: error: ‘tint’ has not been declared
+ CVM_API TC __dotu(const TC* pDm, tint mnSize, tint mnIncr, const TC* pd, tint nIncr);
+                                                                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:486:34: error: ‘tint’ has not been declared
+ CVM_API TC __dotc(const TC* pDm, tint mnSize, tint mnIncr, const TC* pd, tint nIncr);
+                                  ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:486:47: error: ‘tint’ has not been declared
+ CVM_API TC __dotc(const TC* pDm, tint mnSize, tint mnIncr, const TC* pd, tint nIncr);
+                                               ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:486:74: error: ‘tint’ has not been declared
+ CVM_API TC __dotc(const TC* pDm, tint mnSize, tint mnIncr, const TC* pd, tint nIncr);
+                                                                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:489:33: error: ‘tint’ has not been declared
+ CVM_API TR __norm(const TC* pd, tint nSize, tint nIncr);
+                                 ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:489:45: error: ‘tint’ has not been declared
+ CVM_API TR __norm(const TC* pd, tint nSize, tint nIncr);
+                                             ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:492:9: error: ‘tint’ does not name a type
+ CVM_API tint __idamax(const TC* pd, tint nSize, tint nIncr);
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:494:9: error: ‘tint’ does not name a type
+ CVM_API tint __idamin(const TC* pd, tint nSize, tint nIncr);
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:497:29: error: ‘tint’ has not been declared
+ CVM_API void __add(TC* pDm, tint mnSize, tint mnIncr, const TC* pv, tint nIncr);
+                             ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:497:42: error: ‘tint’ has not been declared
+ CVM_API void __add(TC* pDm, tint mnSize, tint mnIncr, const TC* pv, tint nIncr);
+                                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:497:69: error: ‘tint’ has not been declared
+ CVM_API void __add(TC* pDm, tint mnSize, tint mnIncr, const TC* pv, tint nIncr);
+                                                                     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:499:34: error: ‘tint’ has not been declared
+ CVM_API void __subtract(TC* pDm, tint mnSize, tint mnIncr, const TC* pv, tint nIncr);
+                                  ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:499:47: error: ‘tint’ has not been declared
+ CVM_API void __subtract(TC* pDm, tint mnSize, tint mnIncr, const TC* pv, tint nIncr);
+                                               ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:499:74: error: ‘tint’ has not been declared
+ CVM_API void __subtract(TC* pDm, tint mnSize, tint mnIncr, const TC* pv, tint nIncr);
+                                                                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:502:30: error: ‘tint’ has not been declared
+ CVM_API void __scal(TC* pDm, tint mnSize, tint mnIncr, TR dScal);
+                              ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:502:43: error: ‘tint’ has not been declared
+ CVM_API void __scal(TC* pDm, tint mnSize, tint mnIncr, TR dScal);
+                                           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:504:30: error: ‘tint’ has not been declared
+ CVM_API void __conj(TC* pDm, tint mnSize, tint mnIncr);
+                              ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:504:43: error: ‘tint’ has not been declared
+ CVM_API void __conj(TC* pDm, tint mnSize, tint mnIncr);
+                                           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:507:35: error: ‘tint’ has not been declared
+ CVM_API void __copy_real(TC* pDm, tint mnSize, tint mnIncr, const TR* pRe, tint nReIncr);
+                                   ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:507:48: error: ‘tint’ has not been declared
+ CVM_API void __copy_real(TC* pDm, tint mnSize, tint mnIncr, const TR* pRe, tint nReIncr);
+                                                ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:507:76: error: ‘tint’ has not been declared
+ CVM_API void __copy_real(TC* pDm, tint mnSize, tint mnIncr, const TR* pRe, tint nReIncr);
+                                                                            ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:509:35: error: ‘tint’ has not been declared
+ CVM_API void __copy_imag(TC* pDm, tint mnSize, tint mnIncr, const TR* pRe, tint nReIncr);
+                                   ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:509:48: error: ‘tint’ has not been declared
+ CVM_API void __copy_imag(TC* pDm, tint mnSize, tint mnIncr, const TR* pRe, tint nReIncr);
+                                                ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:509:76: error: ‘tint’ has not been declared
+ CVM_API void __copy_imag(TC* pDm, tint mnSize, tint mnIncr, const TR* pRe, tint nReIncr);
+                                                                            ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:511:31: error: ‘tint’ has not been declared
+ CVM_API void __copy2(TC* pDm, tint mnSize, tint mnIncr, const TR* pRe, const TR* pIm,
+                               ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:511:44: error: ‘tint’ has not been declared
+ CVM_API void __copy2(TC* pDm, tint mnSize, tint mnIncr, const TR* pRe, const TR* pIm,
+                                            ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:512:22: error: ‘tint’ has not been declared
+                      tint nReIncr = 1, tint nImIncr = 1);
+                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:512:40: error: ‘tint’ has not been declared
+                      tint nReIncr = 1, tint nImIncr = 1);
+                                        ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:531:33: error: ‘tint’ has not been declared
+ CVM_API void __polynom(TC* pDm, tint ldP, tint mnM, const TC* pd, tint ldA, const TV& v);
+                                 ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:531:43: error: ‘tint’ has not been declared
+ CVM_API void __polynom(TC* pDm, tint ldP, tint mnM, const TC* pd, tint ldA, const TV& v);
+                                           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:531:67: error: ‘tint’ has not been declared
+ CVM_API void __polynom(TC* pDm, tint ldP, tint mnM, const TC* pd, tint ldA, const TV& v);
+                                                                   ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:539:36: error: ‘tint’ has not been declared
+ CVM_API void __solve(const TRM& m, tint nrhs, const TC* pB, tint ldB, TC* pX, tint ldX, TR& dErr,
+                                    ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:539:61: error: ‘tint’ has not been declared
+ CVM_API void __solve(const TRM& m, tint nrhs, const TC* pB, tint ldB, TC* pX, tint ldX, TR& dErr,
+                                                             ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:539:79: error: ‘tint’ has not been declared
+ CVM_API void __solve(const TRM& m, tint nrhs, const TC* pB, tint ldB, TC* pX, tint ldX, TR& dErr,
+                                                                               ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:540:43: error: ‘tint’ does not name a type
+                      const TC* pLU, const tint* pPivots, int transp_mode) throw(cvmexception);
+                                           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:540:49: error: ISO C++ forbids declaration of ‘pPivots’ with no type [-fpermissive]
+                      const TC* pLU, const tint* pPivots, int transp_mode) throw(cvmexception);
+                                                 ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:542:28: error: ‘tint’ has not been declared
+ CVM_API void __svd(TC* pd, tint nSize, tint nIncr, const TM& mArg,
+                            ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:542:40: error: ‘tint’ has not been declared
+ CVM_API void __svd(TC* pd, tint nSize, tint nIncr, const TM& mArg,
+                                        ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:551:22: error: ‘tint’ has not been declared
+ void __low_up(TM& m, tint* nPivots) throw(cvmexception);
+                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:554:35: error: ‘tint’ has not been declared
+ CVM_API void __randomize(TR* pDm, tint mnSize, tint mnIncr, TR dFrom, TR dTo);
+                                   ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:554:48: error: ‘tint’ has not been declared
+ CVM_API void __randomize(TR* pDm, tint mnSize, tint mnIncr, TR dFrom, TR dTo);
+                                                ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:556:40: error: ‘tint’ has not been declared
+ CVM_API void __randomize_real(TC* pDm, tint mnSize, tint mnIncr, TR dFrom, TR dTo);
+                                        ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:556:53: error: ‘tint’ has not been declared
+ CVM_API void __randomize_real(TC* pDm, tint mnSize, tint mnIncr, TR dFrom, TR dTo);
+                                                     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:558:40: error: ‘tint’ has not been declared
+ CVM_API void __randomize_imag(TC* pDm, tint mnSize, tint mnIncr, TR dFrom, TR dTo);
+                                        ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:558:53: error: ‘tint’ has not been declared
+ CVM_API void __randomize_imag(TC* pDm, tint mnSize, tint mnIncr, TR dFrom, TR dTo);
+                                                     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:568:45: error: ‘tint’ has not been declared
+ CVM_API void __syrk(bool bTransp, TC alpha, tint k, const TC* pA, tint ldA, TC beta, TSM& m);
+                                             ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:568:67: error: ‘tint’ has not been declared
+ CVM_API void __syrk(bool bTransp, TC alpha, tint k, const TC* pA, tint ldA, TC beta, TSM& m);
+                                                                   ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:570:46: error: ‘tint’ has not been declared
+ CVM_API void __syr2k(bool bTransp, TC alpha, tint k, const TC* pA, tint ldA,
+                                              ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:570:68: error: ‘tint’ has not been declared
+ CVM_API void __syr2k(bool bTransp, TC alpha, tint k, const TC* pA, tint ldA,
+                                                                    ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:571:36: error: ‘tint’ has not been declared
+                      const TC* pB, tint ldB, TC beta, TSM& m);
+                                    ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:573:45: error: ‘tint’ has not been declared
+ CVM_API void __herk(bool bTransp, TR alpha, tint k, const TC* pA, tint ldA, TR beta, TSM& m);
+                                             ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:573:67: error: ‘tint’ has not been declared
+ CVM_API void __herk(bool bTransp, TR alpha, tint k, const TC* pA, tint ldA, TR beta, TSM& m);
+                                                                   ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:575:46: error: ‘tint’ has not been declared
+ CVM_API void __her2k(bool bTransp, TC alpha, tint k, const TC* pA, tint ldA,
+                                              ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:575:68: error: ‘tint’ has not been declared
+ CVM_API void __her2k(bool bTransp, TC alpha, tint k, const TC* pA, tint ldA,
+                                                                    ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:576:36: error: ‘tint’ has not been declared
+                      const TC* pB, tint ldB, TR beta, TSM& m);
+                                    ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:579:9: error: ‘tint’ does not name a type
+ CVM_API tint __cholesky(TM& m);
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:581:37: error: ‘tint’ has not been declared
+ CVM_API void __bunch_kaufman(TM& m, tint* nPivots) throw(cvmexception);
+                                     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:607:60: error: ‘tint’ has not been declared
+ CVM_API void __gelsy(TM& mA, const TM& mB, TM& mX, TR tol, tint& rank) throw(cvmexception);
+                                                            ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:609:71: error: ‘tint’ has not been declared
+ CVM_API void __gelss(TM& mA, const TM& mB, TM& mX, TR rcond, TV& vSV, tint& rank) throw(cvmexception);
+                                                                       ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:611:71: error: ‘tint’ has not been declared
+ CVM_API void __gelsd(TM& mA, const TM& mB, TM& mX, TR rcond, TV& vSV, tint& rank) throw(cvmexception);
+                                                                       ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:919:21: error: ‘cvm::cvmMalloc’ declared as an ‘inline’ variable
+ inline T* cvmMalloc(tint nEls) throw(cvmexception) {
+                     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:919:21: error: template declaration of ‘T* cvm::cvmMalloc’
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:919:21: error: ‘tint’ was not declared in this scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:938:8: error: ‘tint’ does not name a type
+ inline tint cvmFree(T*& pd) {
+        ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:969:33: error: ‘tint’ has not been declared
+ inline void cvmZeroMemory(T* p, tint nEls) {
+                                 ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In function ‘std::istream& cvm::operator>>(std::istream&, cvm::basic_array<TR, TC>&)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1038:11: error: ‘tint’ does not name a type
+     const tint nSize = aIn.size() * aIn.incr();
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1040:10: error: ‘tint’ was not declared in this scope
+     for (tint i = 0; i < nSize && is.good(); i += aIn.incr()) {
+          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1040:15: error: expected ‘;’ before ‘i’
+     for (tint i = 0; i < nSize && is.good(); i += aIn.incr()) {
+               ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1040:22: error: ‘i’ was not declared in this scope
+     for (tint i = 0; i < nSize && is.good(); i += aIn.incr()) {
+                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1040:26: error: ‘nSize’ was not declared in this scope
+     for (tint i = 0; i < nSize && is.good(); i += aIn.incr()) {
+                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In function ‘std::ostream& cvm::operator<<(std::ostream&, const cvm::basic_array<TR, TC>&)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1074:11: error: ‘tint’ does not name a type
+     const tint nSize = aOut.size() * aOut.incr();
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1076:10: error: ‘tint’ was not declared in this scope
+     for (tint i = 0; i < nSize && os.good(); i += aOut.incr()) {
+          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1076:15: error: expected ‘;’ before ‘i’
+     for (tint i = 0; i < nSize && os.good(); i += aOut.incr()) {
+               ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1076:22: error: ‘i’ was not declared in this scope
+     for (tint i = 0; i < nSize && os.good(); i += aOut.incr()) {
+                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1076:26: error: ‘nSize’ was not declared in this scope
+     for (tint i = 0; i < nSize && os.good(); i += aOut.incr()) {
+                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In function ‘std::istream& cvm::operator>>(std::istream&, cvm::Matrix<TR, TC>&)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1127:10: error: ‘tint’ was not declared in this scope
+     for (tint i = 0; i < mIn.msize(); ++i) {
+          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1127:15: error: expected ‘;’ before ‘i’
+     for (tint i = 0; i < mIn.msize(); ++i) {
+               ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1127:22: error: ‘i’ was not declared in this scope
+     for (tint i = 0; i < mIn.msize(); ++i) {
+                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1128:19: error: expected ‘;’ before ‘j’
+         for (tint j = 0; j < mIn.nsize() && is.good(); ++j) {
+                   ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1128:26: error: ‘j’ was not declared in this scope
+         for (tint j = 0; j < mIn.nsize() && is.good(); ++j) {
+                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In function ‘std::ostream& cvm::operator<<(std::ostream&, const cvm::Matrix<TR, TC>&)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1168:10: error: ‘tint’ was not declared in this scope
+     for (tint i = 0; i < mOut.msize(); ++i) {
+          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1168:15: error: expected ‘;’ before ‘i’
+     for (tint i = 0; i < mOut.msize(); ++i) {
+               ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1168:22: error: ‘i’ was not declared in this scope
+     for (tint i = 0; i < mOut.msize(); ++i) {
+                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1169:19: error: expected ‘;’ before ‘j’
+         for (tint j = 0; j < mOut.nsize() && os.good(); ++j) {
+                   ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1169:26: error: ‘j’ was not declared in this scope
+         for (tint j = 0; j < mOut.nsize() && os.good(); ++j) {
+                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In function ‘void cvm::_copy_b_matrix(RM&, RBM&, bool)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1180:11: error: ‘tint’ does not name a type
+     const tint nM = mb.msize();
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1181:11: error: ‘tint’ does not name a type
+     const tint nN = mb.nsize();
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1182:11: error: ‘tint’ does not name a type
+     const tint nKL = mb.lsize();
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1183:11: error: ‘tint’ does not name a type
+     const tint nKU = mb.usize();
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1184:11: error: ‘tint’ does not name a type
+     const tint nCol = 1 + nKL + nKU;
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1185:5: error: ‘tint’ was not declared in this scope
+     tint nS, nShiftL, nShiftR;
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1185:10: error: expected ‘;’ before ‘nS’
+     tint nS, nShiftL, nShiftR;
+          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1189:15: error: expected ‘;’ before ‘i’
+     for (tint i = 0; i < nN; ++i) {
+               ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1189:22: error: ‘i’ was not declared in this scope
+     for (tint i = 0; i < nN; ++i) {
+                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1189:26: error: ‘nN’ was not declared in this scope
+     for (tint i = 0; i < nN; ++i) {
+                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1190:9: error: ‘nS’ was not declared in this scope
+         nS = nCol;
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1190:14: error: ‘nCol’ was not declared in this scope
+         nS = nCol;
+              ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1191:9: error: ‘nShiftL’ was not declared in this scope
+         nShiftL = 0;
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1192:9: error: ‘nShiftR’ was not declared in this scope
+         nShiftR = 0;
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1193:17: error: ‘nKU’ was not declared in this scope
+         if (i < nKU) {
+                 ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1199:23: error: ‘nKL’ was not declared in this scope
+         if (nN - i <= nKL) {
+                       ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1203:28: error: ‘nM’ was not declared in this scope
+         pL = m.get() + i * nM + nShiftL;
+                            ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1206:9: error: ‘__copy’ was not declared in this scope
+         __copy<TC>(nS,
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1206:18: error: expected primary-expression before ‘>’ token
+         __copy<TC>(nS,
+                  ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: At global scope:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1216:26: error: ‘tint’ has not been declared
+ inline void _sum(TC* pd, tint nSize, tint nIncr,
+                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1216:38: error: ‘tint’ has not been declared
+ inline void _sum(TC* pd, tint nSize, tint nIncr,
+                                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1217:32: error: ‘tint’ has not been declared
+                  const TC* p1, tint nIncr1, const TC* p2, tint nIncr2) {
+                                ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1217:59: error: ‘tint’ has not been declared
+                  const TC* p1, tint nIncr1, const TC* p2, tint nIncr2) {
+                                                           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In function ‘void cvm::_sum(TC*, int, int, const TC*, int, const TC*, int)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1229:13: error: ‘__copy’ was not declared in this scope
+             __copy<TC>(nSize, p1, nIncr1, pd, nIncr);
+             ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1229:22: error: expected primary-expression before ‘>’ token
+             __copy<TC>(nSize, p1, nIncr1, pd, nIncr);
+                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: At global scope:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1237:27: error: ‘tint’ has not been declared
+ inline void _diff(TC* pd, tint nSize, tint nIncr,
+                           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1237:39: error: ‘tint’ has not been declared
+ inline void _diff(TC* pd, tint nSize, tint nIncr,
+                                       ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1238:33: error: ‘tint’ has not been declared
+                   const TC* p1, tint nIncr1, const TC* p2, tint nIncr2) {
+                                 ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1238:60: error: ‘tint’ has not been declared
+                   const TC* p1, tint nIncr1, const TC* p2, tint nIncr2) {
+                                                            ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In function ‘void cvm::_diff(TC*, int, int, const TC*, int, const TC*, int)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1252:13: error: ‘__copy’ was not declared in this scope
+             __copy<TC>(nSize, p1, nIncr1, pd, nIncr);
+             ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1252:22: error: expected primary-expression before ‘>’ token
+             __copy<TC>(nSize, p1, nIncr1, pd, nIncr);
+                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: At global scope:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1260:28: error: ‘tint’ has not been declared
+ inline void _incr(TC* pDm, tint mnSize, tint mnIncr, const TC* pd, tint nIncr) {
+                            ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1260:41: error: ‘tint’ has not been declared
+ inline void _incr(TC* pDm, tint mnSize, tint mnIncr, const TC* pd, tint nIncr) {
+                                         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1260:68: error: ‘tint’ has not been declared
+ inline void _incr(TC* pDm, tint mnSize, tint mnIncr, const TC* pd, tint nIncr) {
+                                                                    ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1271:28: error: ‘tint’ has not been declared
+ inline void _decr(TC* pDm, tint mnSize, tint mnIncr, const TC* pd, tint nIncr) {
+                            ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1271:41: error: ‘tint’ has not been declared
+ inline void _decr(TC* pDm, tint mnSize, tint mnIncr, const TC* pd, tint nIncr) {
+                                         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1271:68: error: ‘tint’ has not been declared
+ inline void _decr(TC* pDm, tint mnSize, tint mnIncr, const TC* pd, tint nIncr) {
+                                                                    ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1282:25: error: ‘tint’ has not been declared
+ void _set_real(TC* pDm, tint mnSize, tint mnIncr, TR d) {
+                         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1282:38: error: ‘tint’ has not been declared
+ void _set_real(TC* pDm, tint mnSize, tint mnIncr, TR d) {
+                                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In function ‘void cvm::_set_real(TC*, int, int, TR)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1283:11: error: ‘tint’ does not name a type
+     const tint nIncr2 = 2 * mnIncr;
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1284:11: error: ‘tint’ does not name a type
+     const tint nSize = mnSize * nIncr2;
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1286:10: error: ‘tint’ was not declared in this scope
+     for (tint i = 0; i < nSize; i += nIncr2) {
+          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1286:15: error: expected ‘;’ before ‘i’
+     for (tint i = 0; i < nSize; i += nIncr2) {
+               ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1286:22: error: ‘i’ was not declared in this scope
+     for (tint i = 0; i < nSize; i += nIncr2) {
+                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1286:26: error: ‘nSize’ was not declared in this scope
+     for (tint i = 0; i < nSize; i += nIncr2) {
+                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1286:38: error: ‘nIncr2’ was not declared in this scope
+     for (tint i = 0; i < nSize; i += nIncr2) {
+                                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: At global scope:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1294:25: error: ‘tint’ has not been declared
+ void _set_imag(TC* pDm, tint mnSize, tint mnIncr, TR d) {
+                         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1294:38: error: ‘tint’ has not been declared
+ void _set_imag(TC* pDm, tint mnSize, tint mnIncr, TR d) {
+                                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In function ‘void cvm::_set_imag(TC*, int, int, TR)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1295:11: error: ‘tint’ does not name a type
+     const tint nIncr2 = 2 * mnIncr;
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1296:11: error: ‘tint’ does not name a type
+     const tint nSize = mnSize * nIncr2;
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1298:10: error: ‘tint’ was not declared in this scope
+     for (tint i = 0; i < nSize; i += nIncr2) {
+          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1298:15: error: expected ‘;’ before ‘i’
+     for (tint i = 0; i < nSize; i += nIncr2) {
+               ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1298:22: error: ‘i’ was not declared in this scope
+     for (tint i = 0; i < nSize; i += nIncr2) {
+                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1298:26: error: ‘nSize’ was not declared in this scope
+     for (tint i = 0; i < nSize; i += nIncr2) {
+                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1298:38: error: ‘nIncr2’ was not declared in this scope
+     for (tint i = 0; i < nSize; i += nIncr2) {
+                                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: At global scope:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1746:5: error: ‘random_device’ in namespace ‘std’ does not name a type
+     std::random_device mre;  //!< standard engine
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1747:5: error: ‘uniform_int_distribution’ in namespace ‘std’ does not name a type
+     std::uniform_int_distribution<int> mDist;  //!< standard generator
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1754:16: error: expected ‘;’ at end of member declaration
+     Randomizer() noexcept
+                ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1754:18: error: ‘noexcept’ does not name a type
+     Randomizer() noexcept
+                  ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1769:26: error: expected ‘;’ at end of member declaration
+     T _get(T dFrom, T dTo) noexcept {
+                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1769:28: error: ‘noexcept’ does not name a type
+     T _get(T dFrom, T dTo) noexcept {
+                            ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1785:17: error: expected ‘;’ at end of member declaration
+     ~Randomizer() noexcept {}
+                 ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1785:19: error: ‘noexcept’ does not name a type
+     ~Randomizer() noexcept {}
+                   ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1795:32: error: expected ‘;’ at end of member declaration
+     static T get(T dFrom, T dTo) noexcept {
+                                ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1795:34: error: ‘noexcept’ does not name a type
+     static T get(T dFrom, T dTo) noexcept {
+                                  ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1820:5: error: ‘tint’ does not name a type
+     tint msz;  //!< Number of elements of type TC allocated
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1821:5: error: ‘tint’ does not name a type
+     tint mincr;  //!< Increment (distance) between elements (default is 1, i.e. elements follow each other)
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1831:5: error: ‘shared_ptr’ in namespace ‘std’ does not name a type
+     std::shared_ptr<TC> mp;  //!< native data pointer
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1836:11: error: expected nested-name-specifier before ‘value_type’
+     using value_type = TC;  //!< STL-specific value type definition
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1836:11: error: using-declaration for non-member at class scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1836:22: error: expected ‘;’ before ‘=’ token
+     using value_type = TC;  //!< STL-specific value type definition
+                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1836:22: error: expected unqualified-id before ‘=’ token
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1837:11: error: expected nested-name-specifier before ‘iterator’
+     using iterator = value_type*;  //!< STL-specific iterator definition
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1837:11: error: using-declaration for non-member at class scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1837:20: error: expected ‘;’ before ‘=’ token
+     using iterator = value_type*;  //!< STL-specific iterator definition
+                    ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1837:20: error: expected unqualified-id before ‘=’ token
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1838:11: error: expected nested-name-specifier before ‘pointer’
+     using pointer = value_type*;  //!< STL-specific value pointer definition
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1838:11: error: using-declaration for non-member at class scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1838:19: error: expected ‘;’ before ‘=’ token
+     using pointer = value_type*;  //!< STL-specific value pointer definition
+                   ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1838:19: error: expected unqualified-id before ‘=’ token
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1839:11: error: expected nested-name-specifier before ‘const_iterator’
+     using const_iterator = const value_type*;  //!< STL-specific const iterator definition
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1839:11: error: using-declaration for non-member at class scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1839:26: error: expected ‘;’ before ‘=’ token
+     using const_iterator = const value_type*;  //!< STL-specific const iterator definition
+                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1839:26: error: expected unqualified-id before ‘=’ token
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1840:11: error: expected nested-name-specifier before ‘const_pointer’
+     using const_pointer = const value_type*;  //!< STL-specific const pointer definition
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1840:11: error: using-declaration for non-member at class scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1840:25: error: expected ‘;’ before ‘=’ token
+     using const_pointer = const value_type*;  //!< STL-specific const pointer definition
+                         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1840:25: error: expected unqualified-id before ‘=’ token
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1841:11: error: expected nested-name-specifier before ‘reference’
+     using reference = value_type&;  //!< STL-specific reference definition
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1841:11: error: using-declaration for non-member at class scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1841:21: error: expected ‘;’ before ‘=’ token
+     using reference = value_type&;  //!< STL-specific reference definition
+                     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1841:21: error: expected unqualified-id before ‘=’ token
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1842:11: error: expected nested-name-specifier before ‘const_reference’
+     using const_reference = const value_type&;  //!< STL-specific const reference definition
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1842:11: error: using-declaration for non-member at class scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1842:27: error: expected ‘;’ before ‘=’ token
+     using const_reference = const value_type&;  //!< STL-specific const reference definition
+                           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1842:27: error: expected unqualified-id before ‘=’ token
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1843:11: error: expected nested-name-specifier before ‘size_type’
+     using size_type = size_t;  //!< STL-specific size type definition
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1843:11: error: using-declaration for non-member at class scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1843:21: error: expected ‘;’ before ‘=’ token
+     using size_type = size_t;  //!< STL-specific size type definition
+                     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1843:21: error: expected unqualified-id before ‘=’ token
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1844:11: error: expected nested-name-specifier before ‘difference_type’
+     using difference_type = ptrdiff_t;  //!< STL-specific difference type definition
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1844:11: error: using-declaration for non-member at class scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1844:27: error: expected ‘;’ before ‘=’ token
+     using difference_type = ptrdiff_t;  //!< STL-specific difference type definition
+                           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1844:27: error: expected unqualified-id before ‘=’ token
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1845:11: error: expected nested-name-specifier before ‘const_reverse_iterator’
+     using const_reverse_iterator = std::reverse_iterator<const_iterator>;  //!< STL-specific const reverse iterator definition
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1845:11: error: using-declaration for non-member at class scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1845:34: error: expected ‘;’ before ‘=’ token
+     using const_reverse_iterator = std::reverse_iterator<const_iterator>;  //!< STL-specific const reverse iterator definition
+                                  ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1845:34: error: expected unqualified-id before ‘=’ token
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1846:11: error: expected nested-name-specifier before ‘reverse_iterator’
+     using reverse_iterator = std::reverse_iterator<iterator>;  //!< STL-specific reverse iterator definition
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1846:11: error: using-declaration for non-member at class scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1846:28: error: expected ‘;’ before ‘=’ token
+     using reverse_iterator = std::reverse_iterator<iterator>;  //!< STL-specific reverse iterator definition
+                            ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1846:28: error: expected unqualified-id before ‘=’ token
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1899:31: error: expected ‘)’ before ‘nSize’
+     explicit basic_array(tint nSize, bool bZeroMemory = true)
+                               ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1939:25: error: ‘tint’ has not been declared
+     basic_array(TC* pd, tint nSize, tint nIncr = 1)
+                         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1939:37: error: ‘tint’ has not been declared
+     basic_array(TC* pd, tint nSize, tint nIncr = 1)
+                                     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1976:31: error: ‘tint’ has not been declared
+     basic_array(const TC* pd, tint nSize, tint nIncr = 1)
+                               ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1976:43: error: ‘tint’ has not been declared
+     basic_array(const TC* pd, tint nSize, tint nIncr = 1)
+                                           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2075:28: error: expected ‘,’ or ‘...’ before ‘&&’ token
+     basic_array(basic_array&& a) noexcept
+                            ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2075:32: error: invalid constructor; you probably meant ‘cvm::basic_array<TR, T> (const cvm::basic_array<TR, T>&)’
+     basic_array(basic_array&& a) noexcept
+                                ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2075:32: error: expected ‘;’ at end of member declaration
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2075:34: error: ‘noexcept’ does not name a type
+     basic_array(basic_array&& a) noexcept
+                                  ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2128:41: error: expected ‘,’ or ‘...’ before ‘&&’ token
+     basic_array& operator = (basic_array&& a) throw(cvmexception) {
+                                         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2164:5: error: ‘tint’ does not name a type
+     tint size() const {
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2350:22: error: declaration of ‘operator()’ as non-function
+     TC& operator () (tint n) throw(cvmexception) {
+                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2350:19: error: expected ‘;’ at end of member declaration
+     TC& operator () (tint n) throw(cvmexception) {
+                   ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2350:27: error: expected ‘)’ before ‘n’
+     TC& operator () (tint n) throw(cvmexception) {
+                           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2384:27: error: ‘tint’ has not been declared
+     const TC operator () (tint n) const throw(cvmexception) {
+                           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2418:22: error: declaration of ‘operator[]’ as non-function
+     TC& operator [] (tint n) throw(cvmexception) {
+                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2418:19: error: expected ‘;’ at end of member declaration
+     TC& operator [] (tint n) throw(cvmexception) {
+                   ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2418:27: error: expected ‘)’ before ‘n’
+     TC& operator [] (tint n) throw(cvmexception) {
+                           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2452:21: error: ‘tint’ has not been declared
+     TC operator [] (tint n) const throw(cvmexception) {
+                     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2537:18: error: expected ‘;’ at end of member declaration
+     basic_array& resize(tint nNewSize) throw(cvmexception) {
+                  ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2537:30: error: expected ‘)’ before ‘nNewSize’
+     basic_array& resize(tint nNewSize) throw(cvmexception) {
+                              ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2566:5: error: ‘tint’ does not name a type
+     tint incr() const {
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2596:5: error: ‘tint’ does not name a type
+     tint indofmax() const {
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2626:5: error: ‘tint’ does not name a type
+     tint indofmin() const {
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2795:11: error: ‘tint’ does not name a type
+     const tint* _pincr() const {
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2799:11: error: ‘tint’ does not name a type
+     const tint* _psize() const {
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2824:5: error: ‘iterator’ does not name a type
+     iterator       begin()        { return this->get();}
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2826:5: error: ‘const_iterator’ does not name a type
+     const_iterator begin() const  { return this->get();}
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2828:5: error: ‘iterator’ does not name a type
+     iterator       end()          { return this->get() + this->size();}
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2830:5: error: ‘const_iterator’ does not name a type
+     const_iterator end()   const  { return this->get() + this->size();}
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2833:5: error: ‘reverse_iterator’ does not name a type
+     reverse_iterator rbegin()             { return reverse_iterator(end());}
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2835:5: error: ‘const_reverse_iterator’ does not name a type
+     const_reverse_iterator rbegin() const { return const_reverse_iterator(end());}
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2837:5: error: ‘reverse_iterator’ does not name a type
+     reverse_iterator rend()               { return reverse_iterator(begin());}
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2839:5: error: ‘const_reverse_iterator’ does not name a type
+     const_reverse_iterator rend()   const { return const_reverse_iterator(begin());}
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2842:5: error: ‘size_type’ does not name a type
+     size_type max_size() const    { return size_type(-1) / sizeof(TC);}
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2844:5: error: ‘size_type’ does not name a type
+     size_type capacity() const    { return static_cast<size_type>(this->size());}
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2849:5: error: ‘reference’ does not name a type
+     reference front()             { return *begin();}
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2851:5: error: ‘const_reference’ does not name a type
+     const_reference front() const { return *begin();}
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2853:5: error: ‘reference’ does not name a type
+     reference back()              { return *(end() - 1);}
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2855:5: error: ‘const_reference’ does not name a type
+     const_reference back()  const { return *(end() - 1);}
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2865:17: error: ‘size_type’ has not been declared
+     void assign(size_type n, const TC& val) throw(cvmexception) {
+                 ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2874:17: error: ‘const_iterator’ has not been declared
+     void assign(const_iterator begin, const_iterator end) throw(cvmexception) {
+                 ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2874:39: error: ‘const_iterator’ has not been declared
+     void assign(const_iterator begin, const_iterator end) throw(cvmexception) {
+                                       ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2895:5: error: ‘reference’ does not name a type
+     reference at(size_type n) throw(cvmexception) {
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2902:5: error: ‘const_reference’ does not name a type
+     const_reference at(size_type n) const throw(cvmexception) {
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3004:5: error: ‘iterator’ does not name a type
+     iterator insert(iterator position, const TC& x) throw(cvmexception) {
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3049:5: error: ‘iterator’ does not name a type
+     iterator erase(iterator position) throw(cvmexception) {
+     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3064:22: error: expected ‘)’ before ‘sz’
+     basic_array(tint sz, tint incr) noexcept
+                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3075:27: error: expected ‘,’ or ‘...’ before ‘&&’ token
+     void _move(basic_array&& a) noexcept {
+                           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3075:31: error: expected ‘;’ at end of member declaration
+     void _move(basic_array&& a) noexcept {
+                               ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3075:33: error: ‘noexcept’ does not name a type
+     void _move(basic_array&& a) noexcept {
+                                 ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3141:18: error: ‘tint’ has not been declared
+     void _resize(tint nNewSize) throw(cvmexception) {
+                  ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3178:13: error: ‘tint’ does not name a type
+     virtual tint _indofmax() const {
+             ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3183:13: error: ‘tint’ does not name a type
+     virtual tint _indofmin() const {
+             ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3196:40: error: ‘tint’ has not been declared
+     virtual void _assign(const TC* pd, tint nIncr) {
+                                        ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3202:63: error: ‘tint’ has not been declared
+     virtual void _assign_shifted(TC* pDshifted, const TC* pd, tint nSize, tint nIncr, tint) {
+                                                               ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3202:75: error: ‘tint’ has not been declared
+     virtual void _assign_shifted(TC* pDshifted, const TC* pd, tint nSize, tint nIncr, tint) {
+                                                                           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3202:87: error: ‘tint’ has not been declared
+     virtual void _assign_shifted(TC* pDshifted, const TC* pd, tint nSize, tint nIncr, tint) {
+                                                                                       ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In constructor ‘cvm::basic_array<TR, T>::basic_array()’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1868:9: error: class ‘cvm::basic_array<TR, T>’ does not have any field named ‘msz’
+       : msz(0),
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1869:9: error: class ‘cvm::basic_array<TR, T>’ does not have any field named ‘mincr’
+         mincr(0),
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1873:9: error: class ‘cvm::basic_array<TR, T>’ does not have any field named ‘mp’
+         mp(),
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1874:13: error: ‘nullptr’ was not declared in this scope
+         mpf(nullptr)
+             ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In constructor ‘cvm::basic_array<TR, T>::basic_array(TC*, int, int)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1940:9: error: class ‘cvm::basic_array<TR, T>’ does not have any field named ‘msz’
+       : msz(nSize), mincr(nIncr),
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1940:21: error: class ‘cvm::basic_array<TR, T>’ does not have any field named ‘mincr’
+       : msz(nSize), mincr(nIncr),
+                     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1944:9: error: class ‘cvm::basic_array<TR, T>’ does not have any field named ‘mp’
+         mp(),
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1948:37: error: ‘msz’ was not declared in this scope
+         _check_le(CVM_WRONGSIZE_LE, msz, TINT_ZERO);
+                                     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In constructor ‘cvm::basic_array<TR, T>::basic_array(const TC*, int, int)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1977:9: error: class ‘cvm::basic_array<TR, T>’ does not have any field named ‘msz’
+       : msz(nSize), mincr(1),
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1977:21: error: class ‘cvm::basic_array<TR, T>’ does not have any field named ‘mincr’
+       : msz(nSize), mincr(1),
+                     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1981:9: error: class ‘cvm::basic_array<TR, T>’ does not have any field named ‘mp’
+         mp(cvmMalloc<TC>(msz), ArrayDeleter<TC>()),
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1981:12: error: ‘cvmMalloc’ was not declared in this scope
+         mp(cvmMalloc<TC>(msz), ArrayDeleter<TC>()),
+            ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1981:24: error: expected primary-expression before ‘>’ token
+         mp(cvmMalloc<TC>(msz), ArrayDeleter<TC>()),
+                        ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1981:26: error: ‘msz’ was not declared in this scope
+         mp(cvmMalloc<TC>(msz), ArrayDeleter<TC>()),
+                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1982:13: error: ‘nullptr’ was not declared in this scope
+         mpf(nullptr)
+             ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1987:9: error: ‘__copy’ was not declared in this scope
+         __copy<TC>(msz, pd, nIncr, this->get(), this->incr());
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:1987:18: error: expected primary-expression before ‘>’ token
+         __copy<TC>(msz, pd, nIncr, this->get(), this->incr());
+                  ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In constructor ‘cvm::basic_array<TR, T>::basic_array(const TC*, const TC*)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2014:9: error: class ‘cvm::basic_array<TR, T>’ does not have any field named ‘msz’
+       : msz(tint(end - begin)), mincr(1),
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2014:33: error: class ‘cvm::basic_array<TR, T>’ does not have any field named ‘mincr’
+       : msz(tint(end - begin)), mincr(1),
+                                 ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2018:9: error: class ‘cvm::basic_array<TR, T>’ does not have any field named ‘mp’
+         mp(cvmMalloc<TC>(msz), ArrayDeleter<TC>()),
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2018:12: error: ‘cvmMalloc’ was not declared in this scope
+         mp(cvmMalloc<TC>(msz), ArrayDeleter<TC>()),
+            ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2018:24: error: expected primary-expression before ‘>’ token
+         mp(cvmMalloc<TC>(msz), ArrayDeleter<TC>()),
+                        ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2018:26: error: ‘msz’ was not declared in this scope
+         mp(cvmMalloc<TC>(msz), ArrayDeleter<TC>()),
+                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2019:13: error: ‘nullptr’ was not declared in this scope
+         mpf(nullptr)
+             ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2023:9: error: ‘__copy’ was not declared in this scope
+         __copy<TC>(msz, begin, 1, this->get(), this->incr());
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2023:18: error: expected primary-expression before ‘>’ token
+         __copy<TC>(msz, begin, 1, this->get(), this->incr());
+                  ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In copy constructor ‘cvm::basic_array<TR, T>::basic_array(const cvm::basic_array<TR, T>&)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2046:9: error: class ‘cvm::basic_array<TR, T>’ does not have any field named ‘msz’
+       : msz(a.msz), mincr(1),
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2046:21: error: class ‘cvm::basic_array<TR, T>’ does not have any field named ‘mincr’
+       : msz(a.msz), mincr(1),
+                     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2050:9: error: class ‘cvm::basic_array<TR, T>’ does not have any field named ‘mp’
+         mp(cvmMalloc<TC>(msz), ArrayDeleter<TC>()),
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2050:12: error: ‘cvmMalloc’ was not declared in this scope
+         mp(cvmMalloc<TC>(msz), ArrayDeleter<TC>()),
+            ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2050:24: error: expected primary-expression before ‘>’ token
+         mp(cvmMalloc<TC>(msz), ArrayDeleter<TC>()),
+                        ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2050:26: error: ‘msz’ was not declared in this scope
+         mp(cvmMalloc<TC>(msz), ArrayDeleter<TC>()),
+                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2051:13: error: ‘nullptr’ was not declared in this scope
+         mpf(nullptr)
+             ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In member function ‘cvm::basic_array<TR, T>& cvm::basic_array<TR, T>::operator=(cvm::basic_array<TR, T>)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2129:38: error: ‘a’ was not declared in this scope
+         _check_ne(CVM_SIZESMISMATCH, a.size(), this->size());
+                                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2130:15: error: ‘move’ is not a member of ‘std’
+         _move(std::move(a));
+               ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In member function ‘TC* cvm::basic_array<TR, T>::get()’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2204:29: error: ‘nullptr’ was not declared in this scope
+         return this->mpf == nullptr ? this->mp.get() : this->mpf;
+                             ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In member function ‘const TC* cvm::basic_array<TR, T>::get() const’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2244:29: error: ‘nullptr’ was not declared in this scope
+         return this->mpf == nullptr ? this->mp.get() : this->mpf;
+                             ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In member function ‘const TC cvm::basic_array<TR, T>::operator()(int) const’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2385:37: error: expected type-specifier before ‘size_type’
+         return this->at(static_cast<size_type>(n - CVM0));
+                                     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2385:37: error: expected ‘>’ before ‘size_type’
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2385:37: error: expected ‘(’ before ‘size_type’
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2385:37: error: ‘size_type’ was not declared in this scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In member function ‘TC cvm::basic_array<TR, T>::operator[](int) const’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2453:37: error: expected type-specifier before ‘size_type’
+         return this->at(static_cast<size_type>(n - CVM0));
+                                     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2453:37: error: expected ‘>’ before ‘size_type’
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2453:37: error: expected ‘(’ before ‘size_type’
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2453:37: error: ‘size_type’ was not declared in this scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In member function ‘virtual TR cvm::basic_array<TR, T>::norm1() const’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2744:15: error: ‘tint’ does not name a type
+         const tint nSize = this->size() * this->incr();
+               ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2745:14: error: ‘tint’ was not declared in this scope
+         for (tint i = 0; i < nSize; i += this->incr()) {
+              ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2745:19: error: expected ‘;’ before ‘i’
+         for (tint i = 0; i < nSize; i += this->incr()) {
+                   ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2745:26: error: ‘i’ was not declared in this scope
+         for (tint i = 0; i < nSize; i += this->incr()) {
+                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2745:30: error: ‘nSize’ was not declared in this scope
+         for (tint i = 0; i < nSize; i += this->incr()) {
+                              ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In member function ‘void cvm::basic_array<TR, T>::assign(int, const TC&)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2866:48: error: expected type-specifier before ‘size_type’
+         _check_gt(CVM_INDEX_GT, n, static_cast<size_type>(this->size()));
+                                                ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2866:48: error: expected ‘>’ before ‘size_type’
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2866:48: error: expected ‘(’ before ‘size_type’
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2866:48: error: ‘size_type’ was not declared in this scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2868:14: error: ‘tint’ was not declared in this scope
+         for (tint i = 0; i < (tint)n; ++i) {
+              ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2868:19: error: expected ‘;’ before ‘i’
+         for (tint i = 0; i < (tint)n; ++i) {
+                   ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2868:26: error: ‘i’ was not declared in this scope
+         for (tint i = 0; i < (tint)n; ++i) {
+                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2868:36: error: expected ‘;’ before ‘n’
+         for (tint i = 0; i < (tint)n; ++i) {
+                                    ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2868:37: error: expected ‘)’ before ‘;’ token
+         for (tint i = 0; i < (tint)n; ++i) {
+                                     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2868:41: error: ‘i’ was not declared in this scope
+         for (tint i = 0; i < (tint)n; ++i) {
+                                         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2868:42: error: expected ‘;’ before ‘)’ token
+         for (tint i = 0; i < (tint)n; ++i) {
+                                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In member function ‘void cvm::basic_array<TR, T>::assign(int, int)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2875:15: error: ‘tint’ does not name a type
+         const tint n = end - begin;
+               ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2876:33: error: ‘n’ was not declared in this scope
+         _check_gt(CVM_INDEX_GT, n, this->size());
+                                 ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2878:14: error: ‘tint’ was not declared in this scope
+         for (tint i = 0; i < n; ++i) {
+              ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2878:19: error: expected ‘;’ before ‘i’
+         for (tint i = 0; i < n; ++i) {
+                   ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2878:26: error: ‘i’ was not declared in this scope
+         for (tint i = 0; i < n; ++i) {
+                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In member function ‘void cvm::basic_array<TR, T>::swap(cvm::basic_array<TR, T>&)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2891:9: error: ‘__swap’ was not declared in this scope
+         __swap<TC>(this->size(), this->get(), this->incr(), v.get(), v.incr());
+         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:2891:18: error: expected primary-expression before ‘>’ token
+         __swap<TC>(this->size(), this->get(), this->incr(), v.get(), v.incr());
+                  ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In member function ‘bool cvm::basic_array<TR, T>::_equals(const cvm::basic_array<TR, T>&) const’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3107:22: error: ‘tint’ was not declared in this scope
+                 for (tint i = 0; i < this->size(); ++i) {
+                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3107:27: error: expected ‘;’ before ‘i’
+                 for (tint i = 0; i < this->size(); ++i) {
+                           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3107:34: error: ‘i’ was not declared in this scope
+                 for (tint i = 0; i < this->size(); ++i) {
+                                  ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In member function ‘void cvm::basic_array<TR, T>::_replace(const cvm::basic_array<TR, T>&)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3133:24: error: ‘cvmMalloc’ was not declared in this scope
+         this->mp.reset(cvmMalloc<TC>(a.size()), ArrayDeleter<TC>());
+                        ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3133:36: error: expected primary-expression before ‘>’ token
+         this->mp.reset(cvmMalloc<TC>(a.size()), ArrayDeleter<TC>());
+                                    ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3134:21: error: ‘nullptr’ was not declared in this scope
+         this->mpf = nullptr;
+                     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In member function ‘void cvm::basic_array<TR, T>::_resize(int)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3145:22: error: ‘cvmMalloc’ was not declared in this scope
+             TC* pd = cvmMalloc<TC>(nNewSize);
+                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3145:34: error: expected primary-expression before ‘>’ token
+             TC* pd = cvmMalloc<TC>(nNewSize);
+                                  ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3147:19: error: ‘tint’ does not name a type
+             const tint nMinSize = _cvm_min<tint>(nNewSize, this->size());
+                   ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3148:17: error: ‘nMinSize’ was not declared in this scope
+             if (nMinSize > 0 && !is_empty) {
+                 ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3149:17: error: ‘__copy’ was not declared in this scope
+                 __copy<TC>(nMinSize, this->get(), this->incr(), pd, 1);
+                 ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3149:26: error: expected primary-expression before ‘>’ token
+                 __copy<TC>(nMinSize, this->get(), this->incr(), pd, 1);
+                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3156:25: error: ‘nullptr’ was not declared in this scope
+             this->mpf = nullptr;
+                         ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In member function ‘bool cvm::basic_array<TR, T>::_is_empty() const’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3168:33: error: ‘nullptr’ was not declared in this scope
+             return this->mpf == nullptr && this->mp.get() == nullptr;
+                                 ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In member function ‘virtual void cvm::basic_array<TR, T>::_set(TC)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3190:15: error: ‘tint’ does not name a type
+         const tint nSize = this->size() * this->incr();
+               ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3191:14: error: ‘tint’ was not declared in this scope
+         for (tint i = 0; i < nSize; i += this->incr()) {
+              ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3191:19: error: expected ‘;’ before ‘i’
+         for (tint i = 0; i < nSize; i += this->incr()) {
+                   ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3191:26: error: ‘i’ was not declared in this scope
+         for (tint i = 0; i < nSize; i += this->incr()) {
+                          ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3191:30: error: ‘nSize’ was not declared in this scope
+         for (tint i = 0; i < nSize; i += this->incr()) {
+                              ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In member function ‘virtual void cvm::basic_array<TR, T>::_assign(const TC*, int)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3198:13: error: ‘__copy’ was not declared in this scope
+             __copy<TC>(this->size(), pd, nIncr, this->get(), this->incr());
+             ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3198:22: error: expected primary-expression before ‘>’ token
+             __copy<TC>(this->size(), pd, nIncr, this->get(), this->incr());
+                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In member function ‘virtual void cvm::basic_array<TR, T>::_assign_shifted(TC*, const TC*, int, int, int)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3204:13: error: ‘__copy’ was not declared in this scope
+             __copy<TC>(nSize, pd, nIncr, pDshifted, this->incr());
+             ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3204:22: error: expected primary-expression before ‘>’ token
+             __copy<TC>(nSize, pd, nIncr, pDshifted, this->incr());
+                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: At global scope:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3280:11: error: expected nested-name-specifier before ‘TC’
+     using TC = std::complex<TR>;  //!< complex number type
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3280:11: error: using-declaration for non-member at class scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3280:14: error: expected ‘;’ before ‘=’ token
+     using TC = std::complex<TR>;  //!< complex number type
+              ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3280:14: error: expected unqualified-id before ‘=’ token
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3281:11: error: expected nested-name-specifier before ‘BaseArray’
+     using BaseArray = basic_array<TR,TR>;  //!< base class
+           ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3281:11: error: using-declaration for non-member at class scope
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3281:21: error: expected ‘;’ before ‘=’ token
+     using BaseArray = basic_array<TR,TR>;  //!< base class
+                     ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3281:21: error: expected unqualified-id before ‘=’ token
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3331:33: error: expected ‘)’ before ‘nSize’
+     explicit basic_rvector(tint nSize)
+                                 ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3357:40: error: expected ‘)’ before ‘<’ token
+     basic_rvector(std::initializer_list<TR> list)
+                                        ^
+main.cpp:10:1: error: expected ‘}’ at end of input
+ }
+ ^
+In file included from ../libviso2/src/visualodometry.h:25:0,
+                 from visualodometrythread.h:9,
+                 from maindialog.h:11,
+                 from main.cpp:2:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3309:22: error: expected unqualified-id at end of input
+     basic_rvector() {}
+                      ^
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:3309:22: error: expected ‘}’ at end of input
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h: In member function ‘const string& cvm::ErrMessages::_get(int)’:
+/root/cvmlib_test/cvmlib/cvm/src/cvm.h:366:5: warning: control reaches end of non-void function [-Wreturn-type]
+     }
+     ^
+make: *** [main.o] Error 1
